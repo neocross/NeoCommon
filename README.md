@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![download aar](https://img.shields.io/badge/Download-aar-yellowgreen.svg)](https://dl.bintray.com/neocross2017/maven/cn/neocross/libs/common/1.0.0/common-1.0.0.aar)
 
+![logo](https://github.com/neocross/NeoCommon/blob/master/common/pom_icon.png)
+
 跨界Android项目公共基础库，方便快速集成和调用。 
 
 ## Maven build settings
