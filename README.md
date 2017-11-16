@@ -15,8 +15,8 @@ dependencies {
   compile 'cn.neocross.libs:common:1.0.0'
 }
 ```
-or mavan
-```mavan
+or maven
+```maven
 <dependency>
   <groupId>cn.neocross.libs</groupId>
   <artifactId>common</artifactId>
@@ -36,6 +36,7 @@ or lvy
 - router
 - utils
 - widget
+
 ## License
 
     Copyright 2017 neocross
