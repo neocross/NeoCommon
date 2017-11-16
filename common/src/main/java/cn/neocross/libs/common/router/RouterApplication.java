@@ -29,7 +29,7 @@ import cn.neocross.libs.common.router.service.WideRouterConnectService;
  */
 public abstract class RouterApplication extends Application {
 
-    private static final String TAG = "(RouterApplication.java:32)";
+    private static final String TAG = "RouterApplication";
     private static RouterApplication sInstance;
     private ArrayList<PriorityLogicWrapper> mLogicList;// 逻辑优先级列表
     private HashMap<String, ArrayList<PriorityLogicWrapper>> mLogicClassMap;// 存储逻辑实现类

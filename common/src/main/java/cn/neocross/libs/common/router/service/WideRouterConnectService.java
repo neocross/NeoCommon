@@ -20,7 +20,7 @@ import cn.neocross.libs.common.router.action.RouterActionResult;
  */
 public final class WideRouterConnectService extends Service {
 
-    private static final String TAG = "(WideRouterConnectService.java:23)";
+    private static final String TAG = "WRConnectService";
 
     @Override
     public void onCreate() {

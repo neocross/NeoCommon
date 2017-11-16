@@ -8,7 +8,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -31,22 +31,14 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'common'//bintrayName
-    bintrayGroupName = 'neocross2017'
-    publishedGroupId = 'cn.neocross.libs'
-    libraryName = 'common'// libraryName Corresponding compile 'cn.neocross.libs:xxxxx:1.0' In xxxxx
-    artifact = 'common'// artifact = libraryName
-    libraryDescription = 'neocross open source common library.'// libraryDescription
-    siteUrl = 'https://github.com/neocross/NeoCommon'//
-    gitUrl = 'https://github.com/neocross/NeoCommon.git'//
-    libraryVersion = '1.0.0'
-    developerId = 'neocross'
-    developerName = 'neocross'
-    developerEmail = 'taotiejia@neocross.cn'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    repoOrg = 'neocross2017'
+    repoGroup = 'maven'
+    repoPkg = 'NeoCommon'
+    devName = 'shenhuanet'
+    devMail = 'shenhuanet@126.com'
+    libGroup = 'cn.neocross.libs'
+    libArtifact = 'common'
+    libDesc = 'neocross open source common library.'
+    web = 'https://github.com/neocross/NeoCommon'
 }
-apply from: 'https://raw.githubusercontent.com/shenhuanet/JCenter/master/install.gradle'
-apply from: 'https://raw.githubusercontent.com/shenhuanet/JCenter/master/bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/shenhuanet/JCenter/master/bintray_release.gradle'
